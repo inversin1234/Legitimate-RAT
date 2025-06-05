@@ -293,7 +293,6 @@ namespace Quasar.Server.Forms
             // 
             this.userSupportToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.showMessageboxToolStripMenuItem,
-            this.remoteChatToolStripMenuItem,
             this.remoteDesktopToolStripMenuItem,
             this.visitWebsiteToolStripMenuItem});
             this.userSupportToolStripMenuItem.Image = global::Quasar.Server.Properties.Resources.user;
@@ -308,17 +307,9 @@ namespace Quasar.Server.Forms
             this.showMessageboxToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.showMessageboxToolStripMenuItem.Text = "Show Messagebox";
             this.showMessageboxToolStripMenuItem.Click += new System.EventHandler(this.showMessageboxToolStripMenuItem_Click);
-            //
-            // remoteChatToolStripMenuItem
-            //
-            this.remoteChatToolStripMenuItem.Image = global::Quasar.Server.Properties.Resources.information;
-            this.remoteChatToolStripMenuItem.Name = "remoteChatToolStripMenuItem";
-            this.remoteChatToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.remoteChatToolStripMenuItem.Text = "Chat";
-            this.remoteChatToolStripMenuItem.Click += new System.EventHandler(this.remoteChatToolStripMenuItem_Click);
-            //
+            // 
             // remoteDesktopToolStripMenuItem
-            //
+            // 
             this.remoteDesktopToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("remoteDesktopToolStripMenuItem.Image")));
             this.remoteDesktopToolStripMenuItem.Name = "remoteDesktopToolStripMenuItem";
             this.remoteDesktopToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
@@ -894,7 +885,6 @@ namespace Quasar.Server.Forms
         private System.Windows.Forms.ToolStripMenuItem userSupportToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem showMessageboxToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem visitWebsiteToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem remoteChatToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem remoteExecuteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem localFileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem webFileToolStripMenuItem;

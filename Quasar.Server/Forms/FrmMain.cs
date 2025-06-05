@@ -648,16 +648,6 @@ namespace Quasar.Server.Forms
             }
         }
 
-        private void remoteChatToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            foreach (Client c in GetSelectedClients())
-            {
-                FrmChat frmChat = FrmChat.CreateNewOrGetExisting(c);
-                frmChat.Show();
-                frmChat.Focus();
-            }
-        }
-
         private void passwordRecoveryToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Client[] clients = GetSelectedClients();

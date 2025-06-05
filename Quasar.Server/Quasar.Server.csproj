@@ -154,12 +154,6 @@
     <Compile Update="Forms\FrmRemoteShell.Designer.cs">
       <DependentUpon>FrmRemoteShell.cs</DependentUpon>
     </Compile>
-    <Compile Update="Forms\FrmChat.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Forms\FrmChat.Designer.cs">
-      <DependentUpon>FrmChat.cs</DependentUpon>
-    </Compile>
     <Compile Update="Forms\FrmReverseProxy.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -257,9 +251,6 @@
     </EmbeddedResource>
     <EmbeddedResource Update="Forms\FrmRemoteShell.resx">
       <DependentUpon>FrmRemoteShell.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Forms\FrmChat.resx">
-      <DependentUpon>FrmChat.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Update="Forms\FrmReverseProxy.resx">
       <DependentUpon>FrmReverseProxy.cs</DependentUpon>
