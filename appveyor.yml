@@ -11,7 +11,7 @@ before_build:
   - nuget restore
 
 build:
-  project: Quasar.sln
+  project: LegitimateRAT.sln
   parallel: true
   verbosity: minimal
 

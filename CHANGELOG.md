@@ -1,6 +1,6 @@
-# Quasar Changelog
+# Registro de cambios de Legitimate RAT
 
-## Quasar v1.4.1 [12.03.2023]
+## Legitimate RAT v1.4.1 [12.03.2023]
 * Added missing WOW64 subsystem autostart locations
 * Fixed file transfers of files larger than 2 GB
 * Fixed file transfers of empty files
@@ -12,7 +12,7 @@
 * Fixed sorting of listview columns with numbers
 * Updated dependencies
 
-## Quasar v1.4.0 [05.06.2020]
+## Legitimate RAT v1.4.0 [05.06.2020]
 * **Changed target framework to .NET Framework 4.5.2**
 * **Changed license to MIT**
 * Changed message serializer to Protobuf
