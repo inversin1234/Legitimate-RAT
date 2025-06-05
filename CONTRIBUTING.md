@@ -1,19 +1,19 @@
-# Contributing
+# Contribuir
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new pull request (PR)
+1. Haz un fork del repositorio
+2. Crea tu rama de funcionalidad (`git checkout -b mi-nueva-funcionalidad`)
+3. Realiza tus commits (`git commit -am 'Añadir funcionalidad'`)
+4. Envía la rama (`git push origin mi-nueva-funcionalidad`)
+5. Crea una nueva *pull request* (PR)
 
-## Guidelines for pull requests:
+## Guía para las pull requests:
 
-1. Respect the coding style of Quasar.
-2. Create a new branch for each PR.
-3. Single feature or bug-fix per PR.
-4. Make single commit per PR.
-5. Make your modification compact - don't reformat source code in your request. It makes code review more difficult.
-6. PR of reformatting (changing of ws/TAB, line endings or coding style) of source code won't be accepted. Use the issue tracker for your request instead.
-7. Typo fixing and code refactoring won't be accepted - please create issues with title started with TYPO to request the changing.
+1. Respeta el estilo de codificación de Legitimate RAT.
+2. Crea una nueva rama por cada PR.
+3. Una sola funcionalidad o corrección por PR.
+4. Un único commit por PR.
+5. Mantén tus modificaciones compactas: no reformatees el código fuente en tu solicitud ya que complica la revisión.
+6. Las PR que sólo cambien formato (espacios/TAB, finales de línea o estilo de código) no serán aceptadas. Usa el sistema de incidencias para solicitarlo.
+7. Las correcciones de tipeos o refactorizaciones no se aceptarán: crea una incidencia comenzando el título con TYPO para solicitarlas.
 
-In short: The easier the code review is, the better the chance your pull request will get accepted.
+En resumen: cuanto más sencilla sea la revisión de código, mayor será la probabilidad de que tu PR sea aceptada.
